@@ -1,0 +1,685 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="pt" target-language="en" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="about.title" datatype="html">
+        <source> Sobre mim </source>
+        <target>About me</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/about/about.html</context>
+          <context context-type="linenumber">8,10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="about.languagesTitle" datatype="html">
+        <source><x id="START_TAG_LUCIDE_ANGULAR" ctype="x-lucide_angular" equiv-text="&lt;lucide-angular [img]=&quot;LanguagesIcon&quot; [size]=&quot;16&quot; /&gt;"/><x id="CLOSE_TAG_LUCIDE_ANGULAR" ctype="x-lucide_angular" equiv-text="&lt;lucide-angular [img]=&quot;LanguagesIcon&quot; [size]=&quot;16&quot; /&gt;"/> Idiomas: </source>
+        <target><x id="START_TAG_LUCIDE_ANGULAR" ctype="x-lucide_angular" equiv-text="&lt;lucide-angular [img]=&quot;LanguagesIcon&quot; [size]=&quot;16&quot; /&gt;"/><x id="CLOSE_TAG_LUCIDE_ANGULAR" ctype="x-lucide_angular" equiv-text="&lt;lucide-angular [img]=&quot;LanguagesIcon&quot; [size]=&quot;16&quot; /&gt;"/> Languages: </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/about/about.html</context>
+          <context context-type="linenumber">23,26</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="about.bio.1" datatype="html">
+        <source>Desenvolvedor Full Stack focado em construir produtos digitais completos, eficientes e escaláveis — do banco de dados à interface, sempre alinhando entrega técnica aos objetivos de negócio. Atualmente em transição de júnior para pleno, cursando Tecnólogo em Análise e Desenvolvimento de Sistemas na UniSENAI.</source>
+        <target>Full Stack Developer focused on building complete, efficient and scalable digital products — from the database to the interface, always aligning technical delivery with business goals. Currently transitioning from junior to mid-level, pursuing a degree in Systems Analysis and Development at UniSENAI.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/about/about.ts</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="about.bio.2" datatype="html">
+        <source>Construo APIs RESTful com o ecossistema Java, Kotlin e Spring Boot, modelo bancos relacionais (PostgreSQL e MySQL) com foco em performance, e desenvolvo interfaces com Angular e Tailwind CSS — entregando funcionalidades de ponta a ponta.</source>
+        <target>I build RESTful APIs with the Java, Kotlin and Spring Boot ecosystem, model relational databases (PostgreSQL and MySQL) with a focus on performance, and develop interfaces with Angular and Tailwind CSS — delivering end-to-end features.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/about/about.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="about.bio.3" datatype="html">
+        <source>Tenho compromisso com qualidade e longevidade de código: aplico SOLID, DRY, KISS, Clean Code, Clean Architecture e DDD no dia a dia, escrevo testes com JUnit, Mockito e Jest, e uso Docker e CI/CD para deploy em nuvem na AWS. Trabalho com Scrum/Kanban e mantenho fluxo organizado mesmo em contexto remoto.</source>
+        <target>I care about code quality and longevity: I apply SOLID, DRY, KISS, Clean Code, Clean Architecture and DDD in my day-to-day work, write tests with JUnit, Mockito and Jest, and use Docker and CI/CD for cloud deployment on AWS. I work with Scrum/Kanban and keep an organized workflow even in a remote context.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/about/about.ts</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="about.lang.pt" datatype="html">
+        <source> Português — Nativo </source>
+        <target> Portuguese — Native </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/about/about.html</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="about.lang.en" datatype="html">
+        <source> Inglês — Intermediário </source>
+        <target> English — Intermediate </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/about/about.html</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="contact.title" datatype="html">
+        <source> Contato </source>
+        <target>Contact</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/contact/contact.html</context>
+          <context context-type="linenumber">8,10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="contact.subtitle" datatype="html">
+        <source> Aberto a novas oportunidades e conversas sobre projetos. Manda uma mensagem. </source>
+        <target>Open to new opportunities and conversations about projects. Send a message.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/contact/contact.html</context>
+          <context context-type="linenumber">11,14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="contact.whatsappMessage" datatype="html">
+        <source>Olá, Marcus! Vi seu portfólio e gostaria de falar com você.</source>
+        <target>Hi, Marcus! I saw your portfolio and would like to talk to you.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/contact/contact.ts</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="education.title" datatype="html">
+        <source> Formação Acadêmica </source>
+        <target>Academic Background</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/education/education.html</context>
+          <context context-type="linenumber">8,11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="education.unisenai.role" datatype="html">
+        <source>Tecnólogo em Análise e Desenvolvimento de Sistemas</source>
+        <target>Systems Analysis and Development (Technologist Degree)</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/education/education.ts</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="education.unisenai.startDate" datatype="html">
+        <source>Fev 2026</source>
+        <target>Feb 2026</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/education/education.ts</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="education.unisenai.endDate" datatype="html">
+        <source>Jun 2028</source>
+        <target>Jun 2028</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/education/education.ts</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="education.unisenai.description" datatype="html">
+        <source>Cursando Tecnólogo em ADS, com foco em desenvolvimento de aplicações web, APIs REST e integração de sistemas.</source>
+        <target>Pursuing a Technologist degree in Systems Analysis and Development, focused on web application development, REST APIs and systems integration.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/education/education.ts</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="education.unisenai.highlight1" datatype="html">
+        <source>Desenvolvimento de projetos práticos focados em aplicações web e integração de sistemas</source>
+        <target>Development of practical projects focused on web applications and systems integration</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/education/education.ts</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="education.unisenai.highlight2" datatype="html">
+        <source>Aprofundamento em backend, frontend, bancos de dados e boas práticas de desenvolvimento</source>
+        <target>Deepening knowledge in backend, frontend, databases and development best practices</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/education/education.ts</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="education.unisenai.highlight3" datatype="html">
+        <source>Evolução contínua em arquitetura de software e tecnologias voltadas a cloud</source>
+        <target>Continuous growth in software architecture and cloud-oriented technologies</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/education/education.ts</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="education.unicesumar.role" datatype="html">
+        <source>Técnico em Análise e Desenvolvimento de Sistemas</source>
+        <target>Systems Analysis and Development (Technical Degree)</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/education/education.ts</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="education.unicesumar.startDate" datatype="html">
+        <source>Fev 2024</source>
+        <target>Feb 2024</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/education/education.ts</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="education.unicesumar.endDate" datatype="html">
+        <source>Ago 2025</source>
+        <target>Aug 2025</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/education/education.ts</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="education.unicesumar.description" datatype="html">
+        <source>Curso de Tecnologia em Análise e Desenvolvimento de Sistemas concluído, com formação em backend, frontend, bancos de dados, arquitetura, DevOps, testes, segurança e metodologias ágeis.</source>
+        <target>Completed technical degree in Systems Analysis and Development, covering backend, frontend, databases, architecture, DevOps, testing, security and agile methodologies.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/education/education.ts</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="education.unicesumar.highlight1" datatype="html">
+        <source>Projeto, desenvolvimento e manutenção de sistemas</source>
+        <target>Design, development and maintenance of systems</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/education/education.ts</context>
+          <context context-type="linenumber">31</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="education.unicesumar.highlight2" datatype="html">
+        <source>Programação, bancos de dados e arquitetura de software</source>
+        <target>Programming, databases and software architecture</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/education/education.ts</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="education.unicesumar.highlight3" datatype="html">
+        <source>Segurança da informação e metodologias ágeis aplicadas a soluções reais</source>
+        <target>Information security and agile methodologies applied to real solutions</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/education/education.ts</context>
+          <context context-type="linenumber">33</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="education.currentLabel" datatype="html">
+        <source>Atual</source>
+        <target>Current</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/education/education.ts</context>
+          <context context-type="linenumber">38</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="education.inProgressLabel" datatype="html">
+        <source>Em andamento</source>
+        <target>In progress</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/education/education.ts</context>
+          <context context-type="linenumber">39</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="education.completedLabel" datatype="html">
+        <source>Concluído</source>
+        <target>Completed</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/education/education.ts</context>
+          <context context-type="linenumber">40</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="experience.title" datatype="html">
+        <source> Experiência </source>
+        <target>Experience</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/experience/experience.html</context>
+          <context context-type="linenumber">8,11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="experience.kellerJunior.role" datatype="html">
+        <source>Desenvolvedor de Software Júnior — Full Stack</source>
+        <target>Junior Software Developer — Full Stack</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/experience/experience.ts</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="experience.kellerJunior.location" datatype="html">
+        <source>Joinville, SC · Presencial</source>
+        <target>Joinville, SC · On-site</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/experience/experience.ts</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="experience.kellerJunior.startDate" datatype="html">
+        <source>Jul 2025</source>
+        <target>Jul 2025</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/experience/experience.ts</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="experience.kellerJunior.description" datatype="html">
+        <source>Entrega de funcionalidades ponta a ponta, da modelagem de banco de dados à interface final, com atuação ativa em decisões arquiteturais.</source>
+        <target>End-to-end feature delivery, from database modeling to the final interface, with active involvement in architectural decisions.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/experience/experience.ts</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="experience.kellerJunior.highlight1" datatype="html">
+        <source>Projeto e construção de APIs RESTful escaláveis com Java, Kotlin e Spring Boot</source>
+        <target>Designed and built scalable RESTful APIs with Java, Kotlin and Spring Boot</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/experience/experience.ts</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="experience.kellerJunior.highlight2" datatype="html">
+        <source>Modelagem de bancos relacionais (PostgreSQL/MySQL) com foco em performance</source>
+        <target>Modeled relational databases (PostgreSQL/MySQL) with a focus on performance</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/experience/experience.ts</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="experience.kellerJunior.highlight3" datatype="html">
+        <source>Otimização de 10% no tempo de resposta da API de dashboard via refatoração de queries e regras de negócio</source>
+        <target>Optimized dashboard API response time by 10% by refactoring complex queries and business logic</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/experience/experience.ts</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="experience.kellerJunior.highlight4" datatype="html">
+        <source>Aplicação de SOLID, Design Patterns, TDD e Clean Architecture no refinamento técnico da equipe</source>
+        <target>Applied SOLID, Design Patterns, TDD and Clean Architecture in the team&#x2019;s technical refinement</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/experience/experience.ts</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="experience.kellerIntern.role" datatype="html">
+        <source>Desenvolvedor de Software — Estágio Full Stack</source>
+        <target>Software Developer — Full Stack Intern</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/experience/experience.ts</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="experience.kellerIntern.location" datatype="html">
+        <source>Joinville, SC · Presencial</source>
+        <target>Joinville, SC · On-site</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/experience/experience.ts</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="experience.kellerIntern.startDate" datatype="html">
+        <source>Ago 2024</source>
+        <target>Aug 2024</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/experience/experience.ts</context>
+          <context context-type="linenumber">28</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="experience.kellerIntern.endDate" datatype="html">
+        <source>Jul 2025</source>
+        <target>Jul 2025</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/experience/experience.ts</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="experience.kellerIntern.description" datatype="html">
+        <source>Construção e manutenção de aplicações web full stack sob mentoria técnica, com foco em Angular no frontend e Spring Boot no backend.</source>
+        <target>Built and maintained full stack web applications under technical mentorship, focusing on Angular on the frontend and Spring Boot on the backend.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/experience/experience.ts</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="experience.kellerIntern.highlight1" datatype="html">
+        <source>Desenvolvimento e consumo de APIs REST para integração entre sistemas</source>
+        <target>Developed and consumed REST APIs for system integration</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/experience/experience.ts</context>
+          <context context-type="linenumber">34</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="experience.kellerIntern.highlight2" datatype="html">
+        <source>Construção de componentes e funcionalidades no frontend com Angular, HTML e CSS</source>
+        <target>Built components and features on the frontend with Angular, HTML and CSS</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/experience/experience.ts</context>
+          <context context-type="linenumber">35</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="experience.kellerIntern.highlight3" datatype="html">
+        <source>Rotinas de manipulação de dados e consultas SQL para regras de negócio</source>
+        <target>Data manipulation routines and SQL queries for business logic</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/experience/experience.ts</context>
+          <context context-type="linenumber">36</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="experience.kellerIntern.highlight4" datatype="html">
+        <source>Fluxo ágil em Kanban, com versionamento e revisão de código via Git</source>
+        <target>Agile Kanban workflow, with code versioning and review via Git</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/experience/experience.ts</context>
+          <context context-type="linenumber">37</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="experience.currentLabel" datatype="html">
+        <source>Atual</source>
+        <target>Current</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/experience/experience.ts</context>
+          <context context-type="linenumber">42</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="footer.rights" datatype="html">
+        <source>Todos os direitos reservados.</source>
+        <target>All rights reserved.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/footer/footer.ts</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="hero.role" datatype="html">
+        <source> Full Stack Developer | Java · Kotlin · Angular · AWS </source>
+        <target>Full Stack Developer | Java · Kotlin · Angular · AWS</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/hero/hero.html</context>
+          <context context-type="linenumber">32,35</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="hero.tagline" datatype="html">
+        <source> Construindo sistemas escaláveis do backend à nuvem. </source>
+        <target>Building scalable systems from backend to cloud.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/hero/hero.html</context>
+          <context context-type="linenumber">39,42</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="hero.viewProjectsCta" datatype="html">
+        <source> Ver Projetos <x id="START_TAG_LUCIDE_ANGULAR" ctype="x-lucide_angular" equiv-text="&lt;lucide-angular [img]=&quot;ArrowRightIcon&quot; [size]=&quot;16&quot; /&gt;"/><x id="CLOSE_TAG_LUCIDE_ANGULAR" ctype="x-lucide_angular" equiv-text="&lt;lucide-angular [img]=&quot;ArrowRightIcon&quot; [size]=&quot;16&quot; /&gt;"/></source>
+        <target> View Projects <x id="START_TAG_LUCIDE_ANGULAR" ctype="x-lucide_angular" equiv-text="&lt;lucide-angular [img]=&quot;ArrowRightIcon&quot; [size]=&quot;16&quot; /&gt;"/><x id="CLOSE_TAG_LUCIDE_ANGULAR" ctype="x-lucide_angular" equiv-text="&lt;lucide-angular [img]=&quot;ArrowRightIcon&quot; [size]=&quot;16&quot; /&gt;"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/hero/hero.html</context>
+          <context context-type="linenumber">51,55</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="hero.downloadCvCta" datatype="html">
+        <source><x id="START_TAG_LUCIDE_ANGULAR" ctype="x-lucide_angular" equiv-text="&lt;lucide-angular [img]=&quot;DownloadIcon&quot; [size]=&quot;16&quot; /&gt;"/><x id="CLOSE_TAG_LUCIDE_ANGULAR" ctype="x-lucide_angular" equiv-text="&lt;lucide-angular [img]=&quot;DownloadIcon&quot; [size]=&quot;16&quot; /&gt;"/> Download CV </source>
+        <target><x id="START_TAG_LUCIDE_ANGULAR" ctype="x-lucide_angular" equiv-text="&lt;lucide-angular [img]=&quot;DownloadIcon&quot; [size]=&quot;16&quot; /&gt;"/><x id="CLOSE_TAG_LUCIDE_ANGULAR" ctype="x-lucide_angular" equiv-text="&lt;lucide-angular [img]=&quot;DownloadIcon&quot; [size]=&quot;16&quot; /&gt;"/> Download Resume </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/hero/hero.html</context>
+          <context context-type="linenumber">60,63</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="hero.stats.projectsLabel" datatype="html">
+        <source>Projetos entregues</source>
+        <target>Projects delivered</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/hero/hero.ts</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="hero.stats.yearsLabel" datatype="html">
+        <source>Anos de experiência</source>
+        <target>Years of experience</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/hero/hero.ts</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="hero.stats.techLabel" datatype="html">
+        <source>Tecnologias</source>
+        <target>Technologies</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/hero/hero.ts</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="navbar.backToTop" datatype="html">
+        <source>Voltar ao início</source>
+        <target>Back to top</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/navbar/navbar.html</context>
+          <context context-type="linenumber">11,12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="navbar.openMenu" datatype="html">
+        <source>Abrir menu</source>
+        <target>Open menu</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/navbar/navbar.html</context>
+          <context context-type="linenumber">43,44</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="nav.about" datatype="html">
+        <source>Sobre</source>
+        <target>About</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/navbar/navbar.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="nav.skills" datatype="html">
+        <source>Skills</source>
+        <target>Skills</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/navbar/navbar.ts</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="nav.projects" datatype="html">
+        <source>Projetos</source>
+        <target>Projects</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/navbar/navbar.ts</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="nav.experience" datatype="html">
+        <source>Experiência</source>
+        <target>Experience</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/navbar/navbar.ts</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="nav.education" datatype="html">
+        <source>Formação</source>
+        <target>Education</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/navbar/navbar.ts</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="nav.contact" datatype="html">
+        <source>Contato</source>
+        <target>Contact</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/navbar/navbar.ts</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="projects.petflow.period" datatype="html">
+        <source>Mar 2026 – Atual</source>
+        <target>Mar 2026 – Present</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/projects/projects.data.ts</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="projects.petflow.description" datatype="html">
+        <source>Plataforma SaaS desenvolvida do zero para otimizar o processo de adoção, divulgação e gestão de animais de estimação, conectando ONGs, abrigos e adotantes com catálogo dinâmico e fluxos de comunicação otimizados. Arquitetura escalável voltada para nuvem.</source>
+        <target>SaaS platform built from scratch to streamline the adoption, listing and management process for pets. The system bridges shelters, NGOs and potential adopters with a dynamic pet catalog and optimized communication flows. Designed with a scalable, cloud-oriented architecture.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/projects/projects.data.ts</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="projects.awsPipeline.period" datatype="html">
+        <source>Mai 2026 – Jul 2026</source>
+        <target>May 2026 – Jul 2026</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/projects/projects.data.ts</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="projects.awsPipeline.description" datatype="html">
+        <source>Pipeline escalável para upload, processamento e entrega de imagens, com arquitetura distribuída orientada a eventos, processamento assíncrono, design cloud-native e URLs pré-assinadas para acesso seguro a arquivos.</source>
+        <target>Scalable pipeline for uploading, processing and delivering images, built on an event-driven distributed architecture, asynchronous processing, cloud-native design and pre-signed URLs for secure file access.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/projects/projects.data.ts</context>
+          <context context-type="linenumber">28</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="projects.papoo.period" datatype="html">
+        <source>Jul 2025 – Atual</source>
+        <target>Jul 2025 – Present</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/projects/projects.data.ts</context>
+          <context context-type="linenumber">37</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="projects.papoo.description" datatype="html">
+        <source>Plataforma para comunicação e gerenciamento interno, com chat, notificações em tempo real e persistência de mensagens.</source>
+        <target>Platform for internal team communication and management, with chat, real-time notifications and message persistence.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/projects/projects.data.ts</context>
+          <context context-type="linenumber">38</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="projects.investapp.period" datatype="html">
+        <source>Jan 2025 – Jun 2025</source>
+        <target>Jan 2025 – Jun 2025</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/projects/projects.data.ts</context>
+          <context context-type="linenumber">58</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="projects.investapp.description" datatype="html">
+        <source>Sistema para gerenciamento e análise de portfólios de investimentos, com acompanhamento de dados financeiros, geração de relatórios e integração com APIs externas.</source>
+        <target>System for managing and analyzing investment portfolios, including financial data tracking, report generation and integration with external APIs.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/projects/projects.data.ts</context>
+          <context context-type="linenumber">59</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="projects.title" datatype="html">
+        <source> Projetos </source>
+        <target>Projects</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/projects/projects.html</context>
+          <context context-type="linenumber">8,11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="projects.githubCta" datatype="html">
+        <source>GitHub</source>
+        <target>GitHub</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/projects/projects.html</context>
+          <context context-type="linenumber">96,97</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="projects.liveCta" datatype="html">
+        <source>Ver projeto</source>
+        <target>View project</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/projects/projects.html</context>
+          <context context-type="linenumber">113,114</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="projects.appCta" datatype="html">
+        <source>Acessar chat</source>
+        <target>Access chat</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/projects/projects.html</context>
+          <context context-type="linenumber">130,131</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="projects.privateLabel" datatype="html">
+        <source>Projeto privado</source>
+        <target>Private project</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/projects/projects.html</context>
+          <context context-type="linenumber">144,146</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="projects.previewAlt" datatype="html">
+        <source>captura de tela do projeto</source>
+        <target>project screenshot</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/projects/projects.ts</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="skills.category.backend" datatype="html">
+        <source>Backend</source>
+        <target>Backend</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/skills/skills.data.ts</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="skills.category.frontend" datatype="html">
+        <source>Frontend</source>
+        <target>Frontend</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/skills/skills.data.ts</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="skills.category.cloudDevops" datatype="html">
+        <source>Cloud &amp; DevOps</source>
+        <target>Cloud &amp; DevOps</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/skills/skills.data.ts</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="skills.category.practices" datatype="html">
+        <source>Práticas &amp; Arquitetura</source>
+        <target>Practices &amp; Architecture</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/skills/skills.data.ts</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="skills.category.tools" datatype="html">
+        <source>Ferramentas</source>
+        <target>Tools</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/skills/skills.data.ts</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="settingsMenu.ariaLabel" datatype="html">
+        <source>Configurações</source>
+        <target>Settings</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/settings-menu/settings-menu.html</context>
+          <context context-type="linenumber">6,7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="settingsMenu.themeLabel" datatype="html">
+        <source> Tema </source>
+        <target> Theme </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/settings-menu/settings-menu.html</context>
+          <context context-type="linenumber">19,21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="themeToggle.ariaLabel" datatype="html">
+        <source>Alternar tema</source>
+        <target>Toggle theme</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/theme-toggle/theme-toggle.html</context>
+          <context context-type="linenumber">7,8</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

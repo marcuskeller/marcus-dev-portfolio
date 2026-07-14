@@ -1,0 +1,66 @@
+<ol class="relative border-s border-slate-300 dark:border-slate-700 space-y-10 ps-6">
+  @for (item of items(); track item.role; let isFirst = $first) {
+    <li appScrollReveal class="relative">
+      <span
+        class="absolute -inset-s-9 grid place-items-center size-6 rounded-full border-2 border-slate-50 dark:border-slate-900/40"
+        [class]="
+          (isFirst ? 'top-0' : 'top-1') +
+          ' ' +
+          (item.isOngoing
+            ? 'bg-indigo-500 text-white'
+            : 'bg-slate-300 dark:bg-slate-700 text-slate-600 dark:text-slate-300')
+        "
+      >
+        <lucide-angular [img]="icon()" [size]="12" />
+      </span>
+
+      <div class="flex flex-wrap items-center gap-2">
+        <p class="text-xs font-medium uppercase tracking-wide text-indigo-500 dark:text-indigo-400">
+          {{ item.startDate }} — {{ item.isOngoing ? dateOngoingLabel() : item.endDate }}
+        </p>
+        @if (item.isOngoing) {
+          <span
+            class="px-2 py-0.5 rounded-full text-[10px] font-semibold uppercase tracking-wide text-indigo-600 dark:text-indigo-400 bg-indigo-500/10"
+          >
+            {{ ongoingBadgeLabel() }}
+          </span>
+        } @else if (completedBadgeLabel()) {
+          <span
+            class="px-2 py-0.5 rounded-full text-[10px] font-semibold uppercase tracking-wide text-emerald-600 dark:text-emerald-400 bg-emerald-500/10"
+          >
+            {{ completedBadgeLabel() }}
+          </span>
+        }
+      </div>
+
+      <h3 class="mt-1 text-lg font-semibold text-slate-900 dark:text-white">
+        {{ item.role }}
+      </h3>
+      <p class="text-sm text-slate-500 dark:text-slate-400">{{ item.organization }}</p>
+
+      @if (item.location) {
+        <p class="mt-0.5 inline-flex items-center gap-1 text-xs text-slate-400 dark:text-slate-500">
+          <lucide-angular [img]="MapPinIcon" [size]="12" />
+          {{ item.location }}
+        </p>
+      }
+
+      <p class="mt-2 text-sm text-slate-600 dark:text-slate-300">{{ item.description }}</p>
+
+      @if (item.highlights) {
+        <ul class="mt-3 space-y-1.5">
+          @for (highlight of item.highlights; track highlight) {
+            <li class="flex items-start gap-2 text-sm text-slate-600 dark:text-slate-300">
+              <lucide-angular
+                [img]="CheckIcon"
+                [size]="14"
+                class="mt-0.5 shrink-0 text-indigo-500 dark:text-indigo-400"
+              />
+              {{ highlight }}
+            </li>
+          }
+        </ul>
+      }
+    </li>
+  }
+</ol>

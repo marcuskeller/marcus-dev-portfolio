@@ -2,34 +2,68 @@
   <div appScrollReveal class="max-w-3xl mx-auto text-center">
     <h2
       appTitleReveal
-      class="section-title w-fit mx-auto mb-4 text-3xl md:text-4xl font-extrabold tracking-tight bg-gradient-to-r from-indigo-500 to-purple-500 bg-clip-text text-transparent"
+      class="section-title w-fit mx-auto mb-4 text-3xl md:text-4xl font-extrabold tracking-tight bg-linear-to-r from-indigo-500 to-purple-500 bg-clip-text text-transparent"
+      i18n="@@contact.title"
     >
-      {{ text().title }}
+      Contato
     </h2>
-    <p class="text-base text-slate-600 dark:text-slate-300 mb-8">
-      {{ text().subtitle }}
+    <p class="text-base text-slate-600 dark:text-slate-300 mb-8" i18n="@@contact.subtitle">
+      Aberto a novas oportunidades e conversas sobre projetos. Manda uma mensagem.
     </p>
 
     <div class="grid grid-cols-2 lg:grid-cols-4 gap-4 mt-10">
-      @for (social of socialLinks(); track social.platform) {
-        <a
-          [href]="social.url"
-          target="_blank"
-          rel="noopener"
-          class="flex flex-col items-center gap-3 rounded-xl border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-white/5 p-6 shadow-sm hover:shadow-[0_0_35px_rgba(99,102,241,0.4)] hover:border-indigo-400 dark:hover:border-indigo-500 hover:-translate-y-1 transition-all"
+      <a
+        href="https://github.com/marcuskeller"
+        target="_blank"
+        rel="noopener"
+        class="flex flex-col items-center gap-3 rounded-xl border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-white/5 p-6 shadow-sm hover:shadow-[0_0_35px_rgba(99,102,241,0.4)] hover:border-indigo-400 dark:hover:border-indigo-500 hover:-translate-y-1 transition-all"
+      >
+        <span
+          class="grid place-items-center size-12 rounded-full text-white bg-linear-to-br from-indigo-500 to-purple-500"
         >
-          <span
-            class="grid place-items-center size-12 rounded-full text-white bg-gradient-to-br from-indigo-500 to-purple-500"
-          >
-            @if (social.platform === 'github' || social.platform === 'whatsapp') {
-              <app-brand-icon [name]="social.platform" [size]="20" />
-            } @else {
-              <lucide-angular [img]="iconFor(social.platform)" [size]="20" />
-            }
-          </span>
-          <span class="font-medium text-slate-900 dark:text-white">{{ social.label }}</span>
-        </a>
-      }
+          <app-brand-icon name="github" [size]="20" />
+        </span>
+        <span class="font-medium text-slate-900 dark:text-white">GitHub</span>
+      </a>
+      <a
+        href="https://linkedin.com/in/keller-marcus"
+        target="_blank"
+        rel="noopener"
+        class="flex flex-col items-center gap-3 rounded-xl border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-white/5 p-6 shadow-sm hover:shadow-[0_0_35px_rgba(99,102,241,0.4)] hover:border-indigo-400 dark:hover:border-indigo-500 hover:-translate-y-1 transition-all"
+      >
+        <span
+          class="grid place-items-center size-12 rounded-full text-white bg-linear-to-br from-indigo-500 to-purple-500"
+        >
+          <app-brand-icon name="linkedin" [size]="20" />
+        </span>
+        <span class="font-medium text-slate-900 dark:text-white">LinkedIn</span>
+      </a>
+      <a
+        href="https://mail.google.com/mail/?view=cm&fs=1&to=v.marcusk@gmail.com"
+        target="_blank"
+        rel="noopener"
+        class="flex flex-col items-center gap-3 rounded-xl border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-white/5 p-6 shadow-sm hover:shadow-[0_0_35px_rgba(99,102,241,0.4)] hover:border-indigo-400 dark:hover:border-indigo-500 hover:-translate-y-1 transition-all"
+      >
+        <span
+          class="grid place-items-center size-12 rounded-full text-white bg-linear-to-br from-indigo-500 to-purple-500"
+        >
+          <lucide-angular [img]="MailIcon" [size]="20" />
+        </span>
+        <span class="font-medium text-slate-900 dark:text-white">Email</span>
+      </a>
+      <a
+        [href]="whatsappUrl"
+        target="_blank"
+        rel="noopener"
+        class="flex flex-col items-center gap-3 rounded-xl border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-white/5 p-6 shadow-sm hover:shadow-[0_0_35px_rgba(99,102,241,0.4)] hover:border-indigo-400 dark:hover:border-indigo-500 hover:-translate-y-1 transition-all"
+      >
+        <span
+          class="grid place-items-center size-12 rounded-full text-white bg-linear-to-br from-indigo-500 to-purple-500"
+        >
+          <app-brand-icon name="whatsapp" [size]="20" />
+        </span>
+        <span class="font-medium text-slate-900 dark:text-white">WhatsApp</span>
+      </a>
     </div>
   </div>
 </section>

@@ -1,11 +1,10 @@
-import { Component, computed, inject } from '@angular/core';
-import { Linkedin, LucideAngularModule, LucideIconData, Mail } from 'lucide-angular';
+import { Component } from '@angular/core';
+import { LucideAngularModule, Mail } from 'lucide-angular';
 import { ScrollRevealDirective } from '../../shared/directives/scroll-reveal.directive';
 import { TitleRevealDirective } from '../../shared/directives/title-reveal.directive';
 import { BrandIcon } from '../../shared/icons/brand-icon';
-import { LanguageService } from '../../shared/services/language.service';
-import { translationsFor } from '../../i18n/translations.model';
-import { socialLinksFor, SocialPlatform } from './social-links.data';
+
+const WHATSAPP_MESSAGE = $localize`:@@contact.whatsappMessage:Olá, Marcus! Vi seu portfólio e gostaria de falar com você.`;
 
 @Component({
   selector: 'app-contact',
@@ -14,16 +13,7 @@ import { socialLinksFor, SocialPlatform } from './social-links.data';
   templateUrl: './contact.html',
 })
 export class Contact {
-  private readonly language = inject(LanguageService);
-  protected readonly socialLinks = computed(() => socialLinksFor(this.language.lang()));
-  protected readonly text = computed(() => translationsFor(this.language.lang()).contact);
+  protected readonly whatsappUrl = `https://wa.me/5547992629270?text=${encodeURIComponent(WHATSAPP_MESSAGE)}`;
 
-  protected iconFor(platform: SocialPlatform): LucideIconData | undefined {
-    return SOCIAL_ICONS[platform];
-  }
+  protected readonly MailIcon = Mail;
 }
-
-const SOCIAL_ICONS: Partial<Record<SocialPlatform, LucideIconData>> = {
-  linkedin: Linkedin,
-  email: Mail,
-};

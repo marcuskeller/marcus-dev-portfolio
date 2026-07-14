@@ -1,0 +1,18 @@
+<section id="experiencia" class="section-seam py-24 px-6 bg-slate-50 dark:bg-slate-900/40">
+  <div class="max-w-3xl mx-auto">
+    <h2
+      appTitleReveal
+      class="section-title w-fit mx-auto mb-12 text-3xl md:text-4xl font-extrabold tracking-tight bg-gradient-to-r from-indigo-500 to-purple-500 bg-clip-text text-transparent"
+      i18n="@@experience.title"
+    >
+      Experiência
+    </h2>
+
+    <app-timeline
+      [items]="experiences"
+      [icon]="BriefcaseIcon"
+      [dateOngoingLabel]="currentLabel"
+      [ongoingBadgeLabel]="currentLabel"
+    />
+  </div>
+</section>

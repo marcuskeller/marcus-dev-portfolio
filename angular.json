@@ -13,12 +13,19 @@
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",
+      "i18n": {
+        "sourceLocale": "pt",
+        "locales": {
+          "en": "src/locale/messages.en.xlf"
+        }
+      },
       "architect": {
         "build": {
           "builder": "@angular/build:application",
           "options": {
             "browser": "src/main.ts",
             "tsConfig": "tsconfig.app.json",
+            "polyfills": ["@angular/localize/init"],
             "assets": [
               {
                 "glob": "**/*",
@@ -41,12 +48,20 @@
                   "maximumError": "8kB"
                 }
               ],
-              "outputHashing": "all"
+              "outputHashing": "all",
+              "localize": true
             },
             "development": {
               "optimization": false,
               "extractLicenses": false,
-              "sourceMap": true
+              "sourceMap": true,
+              "localize": ["pt"]
+            },
+            "en": {
+              "optimization": false,
+              "extractLicenses": false,
+              "sourceMap": true,
+              "localize": ["en"]
             }
           },
           "defaultConfiguration": "production"
@@ -59,6 +74,9 @@
             },
             "development": {
               "buildTarget": "marcus-portifolio:build:development"
+            },
+            "en": {
+              "buildTarget": "marcus-portifolio:build:en"
             }
           },
           "defaultConfiguration": "development"

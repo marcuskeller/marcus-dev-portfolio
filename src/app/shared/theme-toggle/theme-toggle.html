@@ -1,0 +1,23 @@
+<button
+  type="button"
+  role="switch"
+  [attr.aria-checked]="theme.theme() === 'dark'"
+  (click)="theme.toggle()"
+  i18n-aria-label="@@themeToggle.ariaLabel"
+  aria-label="Alternar tema"
+  class="relative inline-flex items-center h-7 w-14 rounded-full border transition-colors duration-300"
+  [class]="
+    theme.theme() === 'dark' ? 'bg-slate-800 border-slate-600' : 'bg-slate-200 border-slate-300'
+  "
+>
+  <span
+    class="inline-flex items-center justify-center size-5 rounded-full bg-white shadow-md transition-transform duration-300 ease-out text-slate-700"
+    [class]="theme.theme() === 'dark' ? 'translate-x-8' : 'translate-x-1'"
+  >
+    <lucide-angular
+      [img]="theme.theme() === 'dark' ? MoonIcon : SunIcon"
+      [size]="12"
+      [strokeWidth]="2.5"
+    />
+  </span>
+</button>

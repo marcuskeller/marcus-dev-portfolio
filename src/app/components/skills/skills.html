@@ -1,0 +1,31 @@
+<section id="skills" class="section-seam py-24 px-6 bg-slate-50 dark:bg-slate-900/40">
+  <div appScrollReveal class="max-w-4xl mx-auto">
+    <h2
+      appTitleReveal
+      class="section-title w-fit mx-auto mb-12 text-3xl md:text-4xl font-extrabold tracking-tight bg-linear-to-r from-indigo-500 to-purple-500 bg-clip-text text-transparent"
+    >
+      Skills
+    </h2>
+
+    <div class="space-y-8">
+      @for (group of skillGroups; track group.category) {
+        <div>
+          <h3
+            class="text-sm font-semibold uppercase tracking-wide text-indigo-500 dark:text-indigo-400 mb-3"
+          >
+            {{ group.label }}
+          </h3>
+          <div class="flex flex-wrap gap-2">
+            @for (skill of group.skills; track skill.name) {
+              <span
+                class="px-3 py-1.5 rounded-full text-sm font-medium text-slate-700 dark:text-slate-200 bg-white dark:bg-white/5 border border-slate-200 dark:border-slate-700 hover:border-indigo-400 dark:hover:border-indigo-500 hover:-translate-y-0.5 transition-all"
+              >
+                {{ skill.name }}
+              </span>
+            }
+          </div>
+        </div>
+      }
+    </div>
+  </div>
+</section>

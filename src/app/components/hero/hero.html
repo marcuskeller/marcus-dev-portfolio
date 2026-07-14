@@ -1,0 +1,107 @@
+<section
+  id="top"
+  class="relative min-h-screen flex items-center justify-center px-6 py-28 md:py-16 bg-linear-to-b from-white to-slate-100 dark:from-slate-900 dark:to-[#0f172a]"
+>
+  <div class="pointer-events-none absolute inset-0 overflow-hidden" aria-hidden="true">
+    <div class="absolute -top-32 -left-24 size-96 rounded-full bg-indigo-500/25 blur-3xl"></div>
+    <div class="absolute top-1/3 -right-24 size-96 rounded-full bg-purple-500/20 blur-3xl"></div>
+  </div>
+
+  <div class="relative w-full max-w-6xl mx-auto grid gap-12 md:grid-cols-2 md:items-center">
+    <div appScrollReveal>
+      <div
+        class="hero-photo-ring relative mx-auto w-64 sm:w-72 md:mx-0 md:w-full md:max-w-sm aspect-4/5 rounded-3xl p-1.5"
+      >
+        <div
+          class="relative w-full h-full rounded-[1.35rem] overflow-hidden border-4 border-white dark:border-slate-900"
+        >
+          <img ngSrc="foto-terno-1.png" fill priority alt="Marcus Dev" class="object-cover" />
+        </div>
+      </div>
+    </div>
+
+    <div appScrollReveal class="text-center md:text-left">
+      <h1 class="text-4xl md:text-6xl font-bold tracking-tight text-slate-900 dark:text-white">
+        Marcus Dev
+      </h1>
+
+      <p
+        class="mt-4 text-lg md:text-xl font-medium bg-linear-to-r from-indigo-500 to-purple-500 bg-clip-text text-transparent"
+        i18n="@@hero.role"
+      >
+        Full Stack Developer | Java · Kotlin · Angular · AWS
+      </p>
+
+      <p
+        class="mt-6 text-base md:text-lg text-slate-600 dark:text-slate-300 max-w-xl mx-auto md:mx-0"
+        i18n="@@hero.tagline"
+      >
+        Construindo sistemas escaláveis do backend à nuvem.
+      </p>
+
+      <div
+        class="mt-10 flex flex-col sm:flex-row items-center md:items-start justify-center md:justify-start gap-4"
+      >
+        <a
+          href="#projetos"
+          appSmoothScroll
+          class="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-3 rounded-lg font-medium text-white bg-linear-to-r from-indigo-500 to-purple-500 shadow-lg shadow-indigo-500/25 hover:shadow-indigo-500/40 hover:-translate-y-0.5 transition-all"
+          i18n="@@hero.viewProjectsCta"
+        >
+          Ver Projetos
+          <lucide-angular [img]="ArrowRightIcon" [size]="16" />
+        </a>
+        <a
+          href="cv/Marcus_Silva_Curriculo.pdf"
+          download
+          class="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-3 rounded-lg font-medium text-slate-700 dark:text-slate-200 border border-slate-300 dark:border-slate-700 hover:bg-slate-900/5 dark:hover:bg-white/5 hover:-translate-y-0.5 transition-all"
+          i18n="@@hero.downloadCvCta"
+        >
+          <lucide-angular [img]="DownloadIcon" [size]="16" />
+          Download CV
+        </a>
+      </div>
+
+      <dl
+        class="mt-16 grid grid-cols-3 gap-6 max-w-md mx-auto md:mx-0 border-t border-slate-200 dark:border-slate-800 pt-8"
+      >
+        <div>
+          <dt class="sr-only" i18n="@@hero.stats.projectsLabel">Projetos entregues</dt>
+          <dd
+            [appCountUp]="projectsCount"
+            class="text-2xl md:text-3xl font-bold bg-linear-to-r from-indigo-500 to-purple-500 bg-clip-text text-transparent"
+          ></dd>
+          <dd
+            class="mt-1 text-xs text-slate-500 dark:text-slate-400"
+            i18n="@@hero.stats.projectsLabel"
+          >
+            Projetos entregues
+          </dd>
+        </div>
+        <div>
+          <dt class="sr-only" i18n="@@hero.stats.yearsLabel">Anos de experiência</dt>
+          <dd
+            appCountUp="2+"
+            class="text-2xl md:text-3xl font-bold bg-linear-to-r from-indigo-500 to-purple-500 bg-clip-text text-transparent"
+          ></dd>
+          <dd
+            class="mt-1 text-xs text-slate-500 dark:text-slate-400"
+            i18n="@@hero.stats.yearsLabel"
+          >
+            Anos de experiência
+          </dd>
+        </div>
+        <div>
+          <dt class="sr-only" i18n="@@hero.stats.techLabel">Tecnologias</dt>
+          <dd
+            [appCountUp]="techCount"
+            class="text-2xl md:text-3xl font-bold bg-linear-to-r from-indigo-500 to-purple-500 bg-clip-text text-transparent"
+          ></dd>
+          <dd class="mt-1 text-xs text-slate-500 dark:text-slate-400" i18n="@@hero.stats.techLabel">
+            Tecnologias
+          </dd>
+        </div>
+      </dl>
+    </div>
+  </div>
+</section>

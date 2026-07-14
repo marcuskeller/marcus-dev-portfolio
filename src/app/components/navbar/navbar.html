@@ -7,14 +7,15 @@
     <a
       href="#top"
       appSmoothScroll
-      [attr.aria-label]="language.lang() === 'pt' ? 'Voltar ao início' : 'Back to top'"
-      class="grid place-items-center size-9 rounded-lg text-white bg-gradient-to-br from-indigo-500 to-purple-500 md:justify-self-start"
+      i18n-aria-label="@@navbar.backToTop"
+      aria-label="Voltar ao início"
+      class="grid place-items-center size-9 rounded-lg text-white bg-linear-to-br from-indigo-500 to-purple-500 md:justify-self-start"
     >
       <lucide-angular [img]="LogoIcon" [size]="18" />
     </a>
 
     <ul class="hidden md:flex items-center gap-8 md:justify-self-center">
-      @for (link of navLinks(); track link.href) {
+      @for (link of navLinks; track link.href) {
         <li>
           <a
             [href]="link.href"
@@ -38,7 +39,8 @@
       <button
         type="button"
         (click)="toggleMenu()"
-        [attr.aria-label]="language.lang() === 'pt' ? 'Abrir menu' : 'Open menu'"
+        i18n-aria-label="@@navbar.openMenu"
+        aria-label="Abrir menu"
         [attr.aria-expanded]="isMenuOpen()"
         class="md:hidden grid place-items-center size-9 rounded-full text-slate-600 dark:text-slate-300 hover:bg-slate-900/5 dark:hover:bg-white/10 transition-colors"
       >
@@ -49,7 +51,7 @@
         <ul
           class="md:hidden absolute right-0 top-full mt-2 z-50 w-48 rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-900 shadow-xl p-2 flex flex-col gap-1"
         >
-          @for (link of navLinks(); track link.href) {
+          @for (link of navLinks; track link.href) {
             <li>
               <a
                 [href]="link.href"
