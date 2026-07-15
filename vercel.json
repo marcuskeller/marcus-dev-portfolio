@@ -4,6 +4,7 @@
   "redirects": [{ "source": "/", "destination": "/pt/", "permanent": false }],
   "rewrites": [
     { "source": "/pt", "destination": "/pt/index.html" },
-    { "source": "/en", "destination": "/en/index.html" }
+    { "source": "/en", "destination": "/en/index.html" },
+    { "source": "/og-image.png", "destination": "/pt/og-image.png" }
   ]
 }
