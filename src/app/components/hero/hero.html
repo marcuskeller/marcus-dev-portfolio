@@ -66,7 +66,6 @@
         class="mt-16 grid grid-cols-3 gap-6 max-w-md mx-auto md:mx-0 border-t border-slate-200 dark:border-slate-800 pt-8"
       >
         <div>
-          <dt class="sr-only" i18n="@@hero.stats.projectsLabel">Projetos entregues</dt>
           <dd
             [appCountUp]="projectsCount"
             class="text-2xl md:text-3xl font-bold bg-linear-to-r from-indigo-500 to-purple-500 bg-clip-text text-transparent"
@@ -79,9 +78,8 @@
           </dd>
         </div>
         <div>
-          <dt class="sr-only" i18n="@@hero.stats.yearsLabel">Anos de experiência</dt>
           <dd
-            appCountUp="2+"
+            [appCountUp]="yearsExperience"
             class="text-2xl md:text-3xl font-bold bg-linear-to-r from-indigo-500 to-purple-500 bg-clip-text text-transparent"
           ></dd>
           <dd
@@ -92,7 +90,6 @@
           </dd>
         </div>
         <div>
-          <dt class="sr-only" i18n="@@hero.stats.techLabel">Tecnologias</dt>
           <dd
             [appCountUp]="techCount"
             class="text-2xl md:text-3xl font-bold bg-linear-to-r from-indigo-500 to-purple-500 bg-clip-text text-transparent"

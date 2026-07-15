@@ -6,7 +6,7 @@ describe('Skills', () => {
     TestBed.configureTestingModule({ imports: [Skills] });
   });
 
-  it('groups skills into the 5 expected categories, in a fixed order', () => {
+  it('groups skills into the 6 expected categories, in a fixed order', () => {
     const fixture = TestBed.createComponent(Skills);
     const groups = fixture.componentInstance['skillGroups'];
 
@@ -15,6 +15,7 @@ describe('Skills', () => {
       'Frontend',
       'Cloud & DevOps',
       'Práticas & Arquitetura',
+      'Testes',
       'Ferramentas',
     ]);
   });

@@ -22,6 +22,7 @@ import { SKILLS } from '../skills/skills.data';
 export class Hero {
   protected readonly projectsCount = `${PROJECTS.length}+`;
   protected readonly techCount = `${SKILLS.length}+`;
+  protected readonly yearsExperience = '2+';
 
   protected readonly ArrowRightIcon = ArrowRight;
   protected readonly DownloadIcon = Download;
